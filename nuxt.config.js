@@ -24,7 +24,7 @@ export default {
   plugins: [
   ],
 
-  components: false,
+  components: true,
 
   buildModules: [
   ],
