@@ -22,6 +22,8 @@ export default {
   ],
 
   plugins: [
+    { src: '~/plugins/both.js' },
+    { src: '~/plugins/client.js', mode: 'client' },
   ],
 
   components: true,
